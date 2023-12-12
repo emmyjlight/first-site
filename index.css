@@ -1,0 +1,332 @@
+ /*GENERAL */
+ *{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+ }
+ /* THE BODY SETTING */
+ body{
+    /* width: 1350px; */
+   width: 100vw;
+    height:100vh;
+    background-color: chartreuse;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+/* THE 1ST MAIN LINE */
+.top{
+height: 150px;
+width: 100%;
+/* background-color: lightgray; */
+background-attachment: fixed;
+display: flex;
+}
+ /* THE LOGO AND ABOUT LINE */
+.header{
+   background-color:white;
+   height: 70%;
+   width: 70%;
+   margin: 15px;
+   display: flex;
+   justify-content: center;
+  
+}
+.logo {
+   margin: auto;
+   height: 90px;
+}
+
+.about {
+   font-size: 30px;
+   margin: 20px;
+   text-decoration: none;
+   padding: 1px;
+
+
+}
+
+
+/* THE RIGHT HAND CONTACT LINK */
+.contact{
+  margin: auto;
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+   background-color: blue;
+   color: white;
+   font-size: 30px;
+   text-decoration: none;
+   text-align: center;
+   padding: 20px;
+}
+
+
+/* THE PHOTO BACKGROUND IMAGE */
+.photo{
+   height: 800px;
+   width: 100%;
+   background: url(images/shutterstock_2138097031\ 1.jpg );
+   /* background: url(images/shutterstock_2138097031\ 1.jpg);
+   background: url(images/shutterstock_2138097031\ 1.jpg); */
+}
+.inside-photo{
+   height: 700px;
+   width: 500px;
+   color: white;
+   /* background-color: yellow; */
+   padding: 60px;
+   margin: 60px;
+
+}
+.contact-us{
+   margin: auto;
+      margin-top: 30px;
+      height: 40px;
+      width: 150px;
+      background-color: white;
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+      text-align: center;
+      padding: 20px;
+}
+.H1{
+   font-size: 80px;
+   display: flex;
+   flex-direction: column;
+   
+   /* text-align: justify; */
+}
+/* FOR SECOND PHOTO */
+.photo-one{
+   height: 700px;
+      width: 100%;
+      background-color: black;
+      color: white;
+      display: flex;
+}
+
+.inside-photo-one {
+   height: 700px;
+   width: 500px;
+   color: white;
+   /* background-color: yellow; */
+   padding: 60px;
+   margin: 60px;
+   /* display: flex;
+   justify-content: center; */
+
+}
+
+/*  THE WHITE BACKGROUND COVER */
+.photo-two{
+   /* border:5px solid black ; */
+   height: 600px;
+   display: flex;
+}
+.H2{
+   font-size: 30px;
+      display: flex;
+      flex-direction: column;
+}
+.inside-photo-two{
+   height: 300px;
+      width: 500px;
+      color: black;
+      /* background-color: yellow; */
+      padding: 60px;
+      margin: 60px;
+}
+
+/*  I COMMENTED SOME PROPERTIES BELOW, BECAUSE I DON'T WANT THEM TO SHOW ON MY WORK, THEY HELP ME BUILD THE RIGHT SIZE SAMPLE */
+.square{
+   /* border: 5px solid black; */
+      height: 400px;
+         width: 400px;
+         color: white;
+         /* background-color: yellow; */
+         display: flex;
+         padding: 10px;
+         margin: 60px;
+         display: flex;
+  }
+.square-one{
+   /* border: 5px solid black; */
+      height: 150px;
+         width: 150px;
+         color: white;
+         background-color: navy;
+         padding: 20px;
+         margin: 20px;
+         
+          
+  }
+  .arrows{
+   display:flex;
+   /* width: 48px; */
+      /* height: 48px; */
+      /* flex-shrink: 5; */
+      padding-top: 50%;
+  }
+
+ 
+.square-two{
+   /* border: 5px solid black; */
+      height: 150px;
+         width: 150px;
+         color: white;
+         background-color: navy;
+         padding: 20px;
+            margin: 20px;
+  }
+ 
+.square-three{
+   /* border: 5px solid black; */
+      height: 150px;
+         width: 150px;
+         color: white;
+         background-color: navy;
+         padding: 20px;
+            margin: 20px;
+  }
+ 
+.square-four{
+   /* border: 5px solid black; */
+      height: 150px;
+         width: 150px;
+         color: white;
+         background-color: lightgreen;
+      padding: 20px;
+         margin: 20px;
+  }
+
+      .last {
+         border: 1px solid white;
+         display: flex;
+         width: 100px;
+         height: 30px;
+         /* padding-top: 50px; */
+         margin-top: 90px;
+      }
+      .us{
+         width: 60px;
+         padding: 7px;
+      }
+ 
+  /* VOICES THAT MATTER WHITE PART */
+  .voice{
+      /* border: 5px solid black; */
+         height: 350px;
+         display: flex;
+  }
+
+  .voice-div{
+   height: 300px;
+   width: 500px;
+   margin: 60px;
+   font-size: 30px;
+  }
+
+  /* THE BIG IMAGE */
+
+  .big-image{
+   /* border: 5px solid black; */
+      height: 900px;
+      width: 100%;
+      display: flex;
+      
+  }
+
+  .big-size{
+   margin: 25px;
+  }
+  .small-size{
+   margin:22px;
+  }
+
+  /* BIG IMAGE BEFORE FOOTER */
+  .before-f{
+   /* border: 5px solid black; */
+      height: 600px;
+      width: 100%;
+      background: url(images/Frame\ 1707478073\ \ \ 2nd\ big.png) no-repeat;
+      background-size: cover;
+      /* display: flex; */
+  }
+
+
+  /*  FOOFTER PART OF THE PAGE */
+  .footer{
+   height: 100%;
+      width: 100%;
+      background-color:  black;
+      color: white;
+       
+   }
+
+  .inside-footer{
+   /* border: 5px solid red; */
+       
+      height: 300px;
+      margin: 20px;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+ 
+  }
+  .logo-footer{
+   height: 100px;
+   width: 500px;
+   margin: 40px;
+ 
+  }
+  .navigation{
+   height: 100px;
+   width: 250px;
+   margin: 20px;
+
+  }
+  .privacy{
+   height: 100px;
+   width: 250px;
+   margin: 20px;
+
+  }
+  .service{
+   height: 100px;
+   width: 250px;
+   margin: 20px;
+
+  }
+  .follow{
+   height: 100px;
+   width: 250px;
+   margin: 20px;
+
+  }
+
+  .icon{
+   display: flex;
+  }
+
+.HR{
+       margin: 20px;
+      color: white;
+}
+
+
+
+  .copyhead{
+    display: flex;
+   margin: 20px;
+  } 
+  
+   .copy{
+   display: flex;
+     margin:auto; 
+   }
+  .term{
+   display:  flex;
+    margin: auto;
+   } 
